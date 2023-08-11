@@ -22,7 +22,8 @@
             "shm.h": "c",
             "ipc.h": "c",
             "sem.h": "c",
-            "types.h": "c"
+            "types.h": "c",
+            "msg.h": "c"
         }
     }
 }
