@@ -1,1 +1,2 @@
-print("Hello World!")q
+print("Hello World!")
+print("Hello Python!")
