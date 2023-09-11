@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/LinuxCC.dir/main.c.o -o LinuxCC 
