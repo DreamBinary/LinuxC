@@ -1,4 +1,3 @@
-#include "arpa/inet.h"
 #include "netinet/in.h"
 #include "stdio.h"
 #include "sys/socket.h"
@@ -9,7 +8,6 @@
 #include "pthread.h"
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "errno.h"
 
 void net_desk_ui() {
 //    system("clear");//清空函数
