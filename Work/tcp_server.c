@@ -7,9 +7,11 @@
 #include "string.h"
 #include "msg.h"
 #include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
 
 
-void search_server_dir(int c_fd) {
+void send_server_filename(int c_fd) {
     struct dirent *dir = NULL;
     MSG send_msg = {0};
     DIR *dp = opendir("/tmp/");
@@ -36,10 +38,10 @@ void search_server_dir(int c_fd) {
     }
 }
 
-void search_download(int c_fd) {
+void send_download_file(int c_fd) {
     MSG send_msg = {0};
     send_msg.type = MSG_TYPE_DOWNLOAD;
-    int fd = open("/tmp/file", O_RDONLY);
+    int fd = open("Work/server_download/server_file", O_RDONLY);
     if (fd < 0) {
         perror("open file error");
         return;
@@ -56,7 +58,32 @@ void search_download(int c_fd) {
     printf("finish send file\n");
 }
 
-void *thread_fun(void *arg) {
+char upload_filename[50];
+
+void create_upload_file() {
+    if (access("Work/server_upload", F_OK) == -1) {
+//                printf("download not exist\n");
+        int res = mkdir("Work/server_upload", 0777);
+        if (res == -1) {
+            perror("mkdir() error");
+        }
+    }
+}
+
+void save_upload_file(MSG recv_msg) {
+    char filepath[100] = "Work/server_upload/";
+    strcat(filepath, upload_filename);
+    int fd = open(filepath, O_WRONLY | O_CREAT | O_TRUNC, 0777);
+    if (fd < 0) {
+        perror("open file error");
+    } else {
+        write(fd, recv_msg.buffer, sizeof(recv_msg.buffer));
+        memset(recv_msg.buffer, 0, sizeof(recv_msg.buffer));
+        close(fd);
+    }
+}
+
+void *recv_thread(void *arg) {
     int c_fd = *((int *) arg);
     int res;
     MSG recv_msg = {0};
@@ -67,10 +94,17 @@ void *thread_fun(void *arg) {
             break;
         }
         if (recv_msg.type == MSG_TYPE_FILENAME) {
-            search_server_dir(c_fd);
+            send_server_filename(c_fd);
             memset(&recv_msg, 0, sizeof(MSG));
         } else if (recv_msg.type == MSG_TYPE_DOWNLOAD) {
-            search_download(c_fd);
+            send_download_file(c_fd);
+            memset(&recv_msg, 0, sizeof(MSG));
+        } else if (recv_msg.type == MSG_TYPE_UPLOAD_FLAG) {
+            strcpy(upload_filename, recv_msg.fname);
+            create_upload_file();
+            memset(&recv_msg, 0, sizeof(MSG));
+        } else if (recv_msg.type == MSG_TYPE_UPLOAD_DATA) {
+            save_upload_file(recv_msg);
             memset(&recv_msg, 0, sizeof(MSG));
         }
     }
@@ -89,6 +123,13 @@ int main() {
     while (1) {
         printf("=============server waiting=============\n");
         c_fd = accept(s_fd, NULL, NULL);
-        pthread_create(&thread_id, NULL, thread_fun, &c_fd);
+        pthread_create(&thread_id, NULL, recv_thread, &c_fd);
     }
 }
+
+//int main() {
+//    int fd = open("server_download/server_file", O_RDONLY);
+//    char buf[100];
+//    read(fd, buf, 100);
+//    printf("%s", buf);
+//}

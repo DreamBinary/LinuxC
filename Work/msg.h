@@ -7,6 +7,8 @@ Created by CXQ on 2023/9/17.
 
 #define MSG_TYPE_FILENAME  1
 #define MSG_TYPE_DOWNLOAD  2
+#define MSG_TYPE_UPLOAD_FLAG 3
+#define MSG_TYPE_UPLOAD_DATA 4
 #define PORT 3333
 
 typedef struct msg {

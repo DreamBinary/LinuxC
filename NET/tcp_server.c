@@ -17,7 +17,7 @@ typedef struct msg {
     char fname[50];//如果type1是文件名传输包那么fname里就放文件名
 } MSG;//结构体随业务需求变化增添新的字段
 
-void search_server_dir(int accept_socket) {
+void send_server_filename(int accept_socket) {
     struct dirent *dir = NULL;
     //opendir是打开Linux目录的api函数
     MSG info_msg = {0};
@@ -38,7 +38,7 @@ void search_server_dir(int accept_socket) {
             memset(info_msg.fname, 0, sizeof(info_msg.fname));
             strcpy(info_msg.fname, dir->d_name);
             printf("filename: %s\n", info_msg.fname);
-            res = write(accept_socket, &info_msg, sizeof(MSG));
+            res = write(c_fd, &info_msg, sizeof(MSG));
             //把每个文件名拷贝到MSG结构体中，用套接字socket发送
             if (res < 0) {
                 perror("send client error:");
@@ -49,11 +49,11 @@ void search_server_dir(int accept_socket) {
 }
 
 //创建线程函数
-void *thread_fun(void *arg) {
+void *recv_thread(void *arg) {
     int acpt_socket = *((int *) arg);
     int res;
     char buffer[50] = {0};
-    search_server_dir(acpt_socket);
+    send_server_filename(acpt_socket);
     printf("finish send info of dir\n");
     while (1) {
         res = read(acpt_socket, buffer, sizeof(buffer));
@@ -91,6 +91,6 @@ int main() {
 //        fgets(sendbuf, sizeof(sendbuf), stdin);
 //        send(c_fd, sendbuf, sizeof(sendbuf), 0);
 
-        pthread_create(&thread_id, NULL, thread_fun, &c_fd);
+        pthread_create(&thread_id, NULL, recv_thread, &c_fd);
     }
 }

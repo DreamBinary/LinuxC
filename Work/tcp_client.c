@@ -21,23 +21,23 @@ void net_desk_ui() {
     printf("请选择你要执行的操作：\n");
 }
 
-void *thread_fun(void *arg) {
-    int sockfd = *((int *) arg);
+void *recv_thread(void *arg) {
+    int s_fd = *((int *) arg);
     MSG recv_msg = {0};
     while (1) {
-        read(sockfd, &recv_msg, sizeof(MSG));
+        read(s_fd, &recv_msg, sizeof(MSG));
         if (recv_msg.type == MSG_TYPE_FILENAME) {
             printf("server path filename = %s\n", recv_msg.fname);
             memset(&recv_msg, 0, sizeof(MSG));
         } else if (recv_msg.type == MSG_TYPE_DOWNLOAD) {
-            if (access("download", F_OK) == -1) {
+            if (access("Work/client_download", F_OK) == -1) {
 //                printf("download not exist\n");
-                int res = mkdir("download", 0777);
+                int res = mkdir("Work/client_download", 0777);
                 if (res == -1) {
                     perror("mkdir() error");
                 }
             }
-            int fd = open("download/file", O_WRONLY | O_CREAT | O_TRUNC, 0777);
+            int fd = open("Work/client_download/file", O_WRONLY | O_CREAT | O_TRUNC, 0777);
             if (fd < 0) {
                 perror("open file error");
             } else {
@@ -48,31 +48,53 @@ void *thread_fun(void *arg) {
         }
     }
 }
+char upload_filename[50];
+void *upload(void *arg) {
+    int s_fd = *((int *) arg);
+    MSG send_msg = {0};
+    send_msg.type = MSG_TYPE_UPLOAD_DATA;
+    char filepath[100] = "Work/client_upload/";
+    strcat(filepath, upload_filename);
+    int fd = open(filepath, O_RDONLY);
+    if (fd < 0) {
+        perror("open file error");
+    }
+    while (1) {
+        int res = read(fd, send_msg.buffer, sizeof(send_msg.buffer));
+        if (res == 0) { // (zero indicates end of file)
+            break;
+        }
+        write(s_fd, &send_msg, sizeof(MSG));
+        memset(send_msg.buffer, 0, sizeof(send_msg.buffer));
+    }
+    close(fd);
+}
 
 int main() {
-    int sockfd;
+    int s_fd;
     int res;
     char choice;
     struct sockaddr_in address;
-    pthread_t thread_id;
+    pthread_t recv_thread_id;
+    pthread_t send_thread_id;
     MSG send_msg = {0};
-    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    s_fd = socket(AF_INET, SOCK_STREAM, 0);
     address.sin_family = AF_INET;
     address.sin_addr.s_addr = htonl(INADDR_ANY);
     address.sin_port = htons(PORT);
-    int newsockfd = connect(sockfd, (struct sockaddr *) &address, sizeof(address));
-    if (newsockfd == -1) {
+    int news_fd = connect(s_fd, (struct sockaddr *) &address, sizeof(address));
+    if (news_fd == -1) {
         printf("connect error\n");
         return 1;
     }
-    pthread_create(&thread_id, NULL, thread_fun, &sockfd);
+    pthread_create(&recv_thread_id, NULL, recv_thread, &s_fd);
     net_desk_ui();
     while (1) {
         choice = getchar();
         switch (choice) {
             case '1':
                 send_msg.type = MSG_TYPE_FILENAME;
-                res = write(sockfd, &send_msg, sizeof(MSG));
+                res = write(s_fd, &send_msg, sizeof(MSG));
                 if (res < 0) {
                     perror("send msg error:");
                 }
@@ -80,14 +102,24 @@ int main() {
                 break;
             case '2':
                 send_msg.type = MSG_TYPE_DOWNLOAD;
-                res = write(sockfd, &send_msg, sizeof(MSG));
+                res = write(s_fd, &send_msg, sizeof(MSG));
                 if (res < 0) {
                     perror("send msg error:");
                 }
                 memset(&send_msg, 0, sizeof(MSG));
                 break;
             case '3':
-
+                send_msg.type = MSG_TYPE_UPLOAD_FLAG;
+                printf("input filename:");
+                scanf("%s", upload_filename);
+                strcpy(send_msg.fname, upload_filename);
+                res = write(s_fd, &send_msg, sizeof(MSG));
+                if (res < 0) {
+                    perror("upload error:");
+                }
+                memset(&send_msg, 0, sizeof(MSG));
+                pthread_create(&send_thread_id, NULL, upload, &s_fd);
+                break;
             case '0':
                 exit(0);
             default:
@@ -97,6 +129,6 @@ int main() {
         net_desk_ui();
     }
 //
-//    close(sockfd);
+//    close(s_fd);
 //    return 0;
 }
