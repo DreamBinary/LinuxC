@@ -1,3 +1,8 @@
+/*****************************
+// Created by CXQ on 2023/9/13.
+*****************************/
+
+#include "arpa/inet.h"
 #include "netinet/in.h"
 #include "stdio.h"
 #include "sys/socket.h"
@@ -123,13 +128,10 @@ int main() {
     while (1) {
         printf("=============server waiting=============\n");
         c_fd = accept(s_fd, NULL, NULL);
+        struct sockaddr_in c_addr;
+        int len = sizeof(c_addr);
+        c_fd = accept(s_fd, (struct sockaddr *) &c_addr, &len);
+        printf("========client addr:%s connected========\n", inet_ntoa(c_addr.sin_addr));
         pthread_create(&thread_id, NULL, recv_thread, &c_fd);
     }
 }
-
-//int main() {
-//    int fd = open("server_download/server_file", O_RDONLY);
-//    char buf[100];
-//    read(fd, buf, 100);
-//    printf("%s", buf);
-//}

@@ -1,3 +1,7 @@
+/*****************************
+// Created by CXQ on 2023/9/13.
+*****************************/
+
 #include "netinet/in.h"
 #include "stdio.h"
 #include "sys/socket.h"
@@ -48,7 +52,9 @@ void *recv_thread(void *arg) {
         }
     }
 }
+
 char upload_filename[50];
+
 void *upload(void *arg) {
     int s_fd = *((int *) arg);
     MSG send_msg = {0};
