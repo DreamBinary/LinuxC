@@ -9,7 +9,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="" />
+    <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Work/server_download/server_file0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/client_download/file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/msg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/server_upload/client_file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/tcp_client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/tcp_client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tcp_server" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,24 +54,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "//wsl$/Ubuntu/root/LinuxC/Work/zeroo.c",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CPPToolchains",
+    "two.files.diff.last.used.file": "//wsl$/Ubuntu/root/LinuxC/Work/zeroo.c",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\root\LinuxC\Work\server_download" />
+    </key>
+  </component>
+  <component name="RunManager" selected="C/C++ File.client.c">
+    <configuration name="client.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="client.c" CONFIG_NAME="client.c">
+      <option name="sourceFile" value="Work\client.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="server.c" CONFIG_NAME="server.c">
+      <option name="sourceFile" value="Work\server.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tcp_client.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="tcp_client.c" CONFIG_NAME="tcp_client.c">
+      <option name="sourceFile" value="Work\tcp_client.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tcp_server.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="tcp_server.c" CONFIG_NAME="tcp_server.c">
+      <option name="sourceFile" value="Work\tcp_server.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.client.c" />
+        <item itemvalue="C/C++ File.server.c" />
+        <item itemvalue="C/C++ File.tcp_client.c" />
+        <item itemvalue="C/C++ File.tcp_server.c" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +125,14 @@
       <workItem from="1696598807337" duration="404000" />
       <workItem from="1696599322566" duration="2061000" />
       <workItem from="1696601559255" duration="680000" />
+      <workItem from="1696602253526" duration="531000" />
+      <workItem from="1696655130200" duration="3917000" />
+      <workItem from="1696669444543" duration="694000" />
+      <workItem from="1696670159027" duration="301000" />
+      <workItem from="1696670476579" duration="692000" />
+      <workItem from="1696671192485" duration="2284000" />
+      <workItem from="1696673502250" duration="522000" />
+      <workItem from="1696674041130" duration="1619000" />
     </task>
     <servers />
   </component>

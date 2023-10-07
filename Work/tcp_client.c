@@ -14,7 +14,6 @@
 #include <fcntl.h>
 
 void net_desk_ui() {
-//    system("clear");//清空函数
     printf("=============TCP文件传输客户端=============\n");
     printf("------------------功能菜单------------------\n");
     printf("\t\t1.查询文件\n");
@@ -35,7 +34,6 @@ void *recv_thread(void *arg) {
             memset(&recv_msg, 0, sizeof(MSG));
         } else if (recv_msg.type == MSG_TYPE_DOWNLOAD) {
             if (access("Work/client_download", F_OK) == -1) {
-//                printf("download not exist\n");
                 int res = mkdir("Work/client_download", 0777);
                 if (res == -1) {
                     perror("mkdir() error");
