@@ -43,7 +43,7 @@ void send_fun(int s_fd, MSG *send_msg) {
     memset(send_msg, 0, sizeof(MSG));
 }
 
-void getServerFiles(GtkWidget *widget,gpointer data) {
+void getServerFiles(GtkWidget *widget, gpointer data) {
     GtkWidget *label = GTK_WIDGET(data);
     MSG send_msg = {0};
     MSG recv_msg = {0};
@@ -74,7 +74,7 @@ void downloadPage() {
     frame = gtk_frame_new("download_page");
 }
 
-void onFileSelected(GtkWidget *widget,gpointer data) {
+void onFileSelected(GtkWidget *widget, gpointer data) {
     GtkWidget *label = GTK_WIDGET(data);
     gtk_label_set_text(GTK_LABEL(label), gtk_file_selection_get_filename(GTK_FILE_SELECTION(filew)));
     gtk_widget_destroy(filew);
