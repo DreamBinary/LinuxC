@@ -21,7 +21,7 @@ void net_desk_ui() {
     printf("\t\t2.下载文件\n");
     printf("\t\t3.上传文件\n");
     printf("\t\t0.退出系统\n");
-    printf("------------------------------------------------\n");
+    printf("--------------------------------------------\n");
     printf("请选择你要执行的操作：\n");
 }
 
@@ -31,7 +31,7 @@ void *recv_thread(void *arg) {
     while (1) {
         read(s_fd, &recv_msg, sizeof(MSG));
         if (recv_msg.type == MSG_TYPE_FILENAME) {
-            printf("file in server = %s\n", recv_msg.fname);
+            printf("file in server:\n %s", recv_msg.buffer);
         } else if (recv_msg.type == MSG_TYPE_DOWNLOAD) {
             create_dir(filepath);
             strcat(filepath, "/");

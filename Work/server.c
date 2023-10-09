@@ -25,19 +25,22 @@ void send_server_filename(int c_fd) {
         perror("open dir error");
         return;
     }
+    char filenames[1024] = "";
     while (1) {
         dir = readdir(dp);
         if (NULL == dir) {
             break;
         }
         if (dir->d_name[0] != '.') {
-            memset(send_msg.fname, 0, sizeof(send_msg.fname));
-            strcpy(send_msg.fname, dir->d_name);
-            int res = write(c_fd, &send_msg, sizeof(MSG));
-            if (res < 0) {
-                perror("send client error:");
-            }
+            strcat(filenames, dir->d_name);
+            strcat(filenames, "\n");
         }
+    }
+    printf("---%s", filenames);
+    strcpy(send_msg.buffer, filenames);
+    int res = write(c_fd, &send_msg, sizeof(MSG));
+    if (res < 0) {
+        perror("send client error:");
     }
 }
 

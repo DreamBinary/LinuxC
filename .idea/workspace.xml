@@ -10,18 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Work/server_download/server_file0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_download/file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/msg.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_upload/client_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/tcp_client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/tcp_client.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp_client" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp_server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/server.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" afterPath="$PROJECT_DIR$/server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +56,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "//wsl$/Ubuntu/root/LinuxC/Work/zeroo.c",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,30 +80,44 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="client_gui.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="client_gui.c" CONFIG_NAME="client_gui.c">
+      <option name="sourceFile" value="Work\client_gui.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="main.c" CONFIG_NAME="main.c">
+      <option name="sourceFile" value="main.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="server.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="server.c" CONFIG_NAME="server.c">
       <option name="sourceFile" value="Work\server.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tcp_client.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="tcp_client.c" CONFIG_NAME="tcp_client.c">
-      <option name="sourceFile" value="Work\tcp_client.c" />
+    <configuration name="table.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" PROGRAM_PARAMS="`pkg-config --cflags --libs  gtk+-2.0`" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="table.c" CONFIG_NAME="table.c">
+      <option name="sourceFile" value="GUI\table.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tcp_server.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="tcp_server.c" CONFIG_NAME="tcp_server.c">
-      <option name="sourceFile" value="Work\tcp_server.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.client_gui.c" />
+      <item itemvalue="C/C++ File.client.c" />
+      <item itemvalue="C/C++ File.main.c" />
+      <item itemvalue="C/C++ File.server.c" />
+      <item itemvalue="C/C++ File.table.c" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="C/C++ File.client.c" />
         <item itemvalue="C/C++ File.server.c" />
-        <item itemvalue="C/C++ File.tcp_client.c" />
-        <item itemvalue="C/C++ File.tcp_server.c" />
+        <item itemvalue="C/C++ File.client_gui.c" />
+        <item itemvalue="C/C++ File.table.c" />
+        <item itemvalue="C/C++ File.main.c" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +140,16 @@
       <workItem from="1696670476579" duration="692000" />
       <workItem from="1696671192485" duration="2284000" />
       <workItem from="1696673502250" duration="522000" />
-      <workItem from="1696674041130" duration="1619000" />
+      <workItem from="1696674041130" duration="1815000" />
+      <workItem from="1696689069517" duration="69000" />
+      <workItem from="1696689537169" duration="488000" />
+      <workItem from="1696731389385" duration="6000" />
+      <workItem from="1696845389280" duration="9187000" />
+      <workItem from="1696856822167" duration="160000" />
+      <workItem from="1696856998829" duration="292000" />
+      <workItem from="1696857324583" duration="1382000" />
+      <workItem from="1696860150751" duration="327000" />
+      <workItem from="1696860579512" duration="2441000" />
     </task>
     <servers />
   </component>
