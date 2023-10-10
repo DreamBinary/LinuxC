@@ -20,6 +20,7 @@ void net_desk_ui() {
     printf("\t\t1.查询文件\n");
     printf("\t\t2.下载文件\n");
     printf("\t\t3.上传文件\n");
+    printf("\t\t4.显示菜单\n");
     printf("\t\t0.退出系统\n");
     printf("--------------------------------------------\n");
     printf("请选择你要执行的操作：\n");
@@ -105,8 +106,9 @@ int main() {
             case '0':
                 close(s_fd);
                 return 0;
-            default:
+            case '4':
                 net_desk_ui();
+            default:
                 break;
         }
     }

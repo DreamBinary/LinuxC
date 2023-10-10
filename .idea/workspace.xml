@@ -11,14 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_gui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/client_download/downfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Work/client_gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client_gui.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_logic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/server.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/tcp_client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/tcp_client.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" afterPath="$PROJECT_DIR$/server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +156,10 @@
       <workItem from="1696940306888" duration="96000" />
       <workItem from="1696940482523" duration="105000" />
       <workItem from="1696940638770" duration="47000" />
+      <workItem from="1696940763361" duration="2040000" />
+      <workItem from="1696943319788" duration="1378000" />
+      <workItem from="1696944954626" duration="47000" />
+      <workItem from="1696945013576" duration="1464000" />
     </task>
     <servers />
   </component>
