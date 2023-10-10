@@ -38,6 +38,7 @@ void *recv_thread(void *arg) {
                 if (res == -1) {
                     perror("mkdir() error");
                 }
+                }
             }
             int fd = open("Work/client_download/file", O_WRONLY | O_CREAT | O_TRUNC, 0777);
             if (fd < 0) {

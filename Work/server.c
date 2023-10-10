@@ -13,8 +13,8 @@
 #include <fcntl.h>
 #include "share.h"
 
-char server_path[50] = "Work/server_download/";
-char server_upload_path[50] = "Work/server_upload/";
+char server_path[50] = "/root/LinuxC/Work/server_download/";
+char server_upload_path[50] = "/root/LinuxC/Work/server_upload/";
 
 void send_server_filename(int c_fd) {
     struct dirent *dir = NULL;
@@ -36,12 +36,12 @@ void send_server_filename(int c_fd) {
             strcat(filenames, "\n");
         }
     }
-    printf("---%s", filenames);
     strcpy(send_msg.buffer, filenames);
     int res = write(c_fd, &send_msg, sizeof(MSG));
     if (res < 0) {
         perror("send client error:");
     }
+    printf("finish send filename\n");
 }
 
 void send_download_file(int c_fd, char *filename) {
@@ -51,7 +51,7 @@ void send_download_file(int c_fd, char *filename) {
     strcpy(filepath, server_path);
     strcat(filepath, filename);
     send_file(c_fd, &send_msg, filepath);
-    printf("finish send file\n");
+    printf("finish send download file\n");
 }
 
 void save_upload_file(MSG recv_msg, char *upload_filename) {
@@ -59,6 +59,7 @@ void save_upload_file(MSG recv_msg, char *upload_filename) {
     strcpy(filepath, server_upload_path);
     strcat(filepath, upload_filename);
     write_file(filepath, recv_msg.buffer, sizeof(recv_msg.buffer));
+    printf("finish save upload file\n");
 }
 
 void *recv_thread(void *arg) {
