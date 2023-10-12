@@ -45,9 +45,10 @@ void send_server_filename(int c_fd) {
 }
 
 void send_download_file(int c_fd, char *filename) {
+    printf("%s\n", filename);
     MSG send_msg = {0};
     send_msg.type = MSG_TYPE_DOWNLOAD;
-    char filepath[100];
+    char filepath[100] = "";
     strcpy(filepath, server_path);
     strcat(filepath, filename);
     send_file(c_fd, &send_msg, filepath);
@@ -55,7 +56,7 @@ void send_download_file(int c_fd, char *filename) {
 }
 
 void save_upload_file(MSG recv_msg, char *upload_filename) {
-    char filepath[100];
+    char filepath[100] = "";
     strcpy(filepath, server_upload_path);
     strcat(filepath, upload_filename);
     write_file(filepath, recv_msg.buffer, sizeof(recv_msg.buffer));

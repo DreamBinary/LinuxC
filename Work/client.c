@@ -84,7 +84,7 @@ int main() {
                 send_msg.type = MSG_TYPE_DOWNLOAD;
                 printf("input download filename:");
                 scanf("%s", filename);
-                printf("input save dir:");
+                printf("input save filepath:");
                 scanf("%s", filepath);
                 strcpy(send_msg.fname, filename);
                 send_fun(s_fd, &send_msg);

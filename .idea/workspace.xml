@@ -11,9 +11,18 @@
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/client" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Work/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_download/downfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/client_download/server_file0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/client_gui" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client_gui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Work/client_gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client_gui.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/msg.h" beforeDir="false" afterPath="$PROJECT_DIR$/Work/msg.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/server" beforeDir="false" afterPath="$PROJECT_DIR$/Work/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/server.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/share.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/share.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server" beforeDir="false" afterPath="$PROJECT_DIR$/server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +81,7 @@
       <recent name="\\wsl$\Ubuntu\root\LinuxC\Work\server_download" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.server.c">
+  <component name="RunManager" selected="C/C++ File.client.c">
     <configuration name="client.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="client.c" CONFIG_NAME="client.c">
       <option name="sourceFile" value="Work\client.c" />
       <method v="2">
@@ -112,8 +121,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.server.c" />
         <item itemvalue="C/C++ File.client.c" />
+        <item itemvalue="C/C++ File.server.c" />
         <item itemvalue="C/C++ File.client_gui.c" />
         <item itemvalue="C/C++ File.table.c" />
         <item itemvalue="C/C++ File.main.c" />
@@ -160,6 +169,9 @@
       <workItem from="1696943319788" duration="1378000" />
       <workItem from="1696944954626" duration="47000" />
       <workItem from="1696945013576" duration="1464000" />
+      <workItem from="1697116532465" duration="1172000" />
+      <workItem from="1697118064921" duration="838000" />
+      <workItem from="1697119210992" duration="169000" />
     </task>
     <servers />
   </component>

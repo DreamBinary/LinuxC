@@ -21,6 +21,7 @@ void create_dir(char *path) {
 }
 
 void write_file(char *filepath, char *buffer, int size) {
+    printf("fdsafdsafsadfsad");
     int fd = open(filepath, O_WRONLY | O_CREAT | O_TRUNC, 0777);
     if (fd < 0) {
         perror("open file error");
