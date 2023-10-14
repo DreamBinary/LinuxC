@@ -11,17 +11,14 @@
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_download/server_file0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_gui" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client_gui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/aaaaaaaaaa" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Work/client_gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/client_gui.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/msg.h" beforeDir="false" afterPath="$PROJECT_DIR$/Work/msg.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/rrrrrrrrrrrrrr" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Work/server" beforeDir="false" afterPath="$PROJECT_DIR$/Work/server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Work/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/server.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/share.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/share.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/server_upload/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/server_upload/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/ssssssssssss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server" beforeDir="false" afterPath="$PROJECT_DIR$/server" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +168,11 @@
       <workItem from="1696945013576" duration="1464000" />
       <workItem from="1697116532465" duration="1172000" />
       <workItem from="1697118064921" duration="838000" />
-      <workItem from="1697119210992" duration="169000" />
+      <workItem from="1697119210992" duration="568000" />
+      <workItem from="1697187052916" duration="146000" />
+      <workItem from="1697189400522" duration="607000" />
+      <workItem from="1697243139105" duration="294000" />
+      <workItem from="1697259365104" duration="15000" />
     </task>
     <servers />
   </component>

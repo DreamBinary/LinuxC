@@ -92,19 +92,15 @@ void download(GtkWidget *widget, gpointer data) {
     const gchar *labelText = gtk_label_get_text(GTK_LABEL(label));
     char filepath[100] = "";
     strcpy(filepath, labelText);
-    printf("---------------------");
     printf("download filepath: %s\n", filepath);
     printf("download filename: %s\n", selectedFile);
-    printf("---------------------");
     if (strlen(selectedFile) == 0) {
         return;
     }
-    printf("---------------------");
     MSG send_msg = {0};
     send_msg.type = MSG_TYPE_DOWNLOAD;
     strcpy(send_msg.fname, selectedFile);
     send_fun(s_fd, &send_msg);
-    printf("---------------------");
     MSG recv_msg = {0};
     read(s_fd, &recv_msg, sizeof(MSG));
     write_file(filepath, recv_msg.buffer, sizeof(recv_msg.buffer));

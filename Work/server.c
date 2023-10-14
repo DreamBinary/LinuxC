@@ -99,7 +99,6 @@ int main() {
     listen(s_fd, 10);
     while (1) {
         printf("=============server waiting=============\n");
-        c_fd = accept(s_fd, NULL, NULL);
         int len = sizeof(c_addr);
         c_fd = accept(s_fd, (struct sockaddr *) &c_addr, &len);
         printf("========client addr:%s connected========\n", inet_ntoa(c_addr.sin_addr));
