@@ -8,9 +8,9 @@ The output was:
 0
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "visitBit.out"
 
-The C compiler identification is GNU, found in "/root/LinuxCC/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/root/LinuxCC/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdC/visitBit.out"
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /root/LinuxCC/cmake-build-debug/CMakeFiles/CMakeTmp

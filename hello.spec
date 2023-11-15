@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(
+visitBit = Analysis(
     ['hello.py'],
     pathex=[],
     binaries=[],
@@ -19,14 +19,14 @@ a = Analysis(
     cipher=block_cipher,
     noarchive=False,
 )
-pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+pyz = PYZ(visitBit.pure, visitBit.zipped_data, cipher=block_cipher)
 
 exe = EXE(
     pyz,
-    a.scripts,
-    a.binaries,
-    a.zipfiles,
-    a.datas,
+    visitBit.scripts,
+    visitBit.binaries,
+    visitBit.zipfiles,
+    visitBit.datas,
     [],
     name='hello',
     debug=False,

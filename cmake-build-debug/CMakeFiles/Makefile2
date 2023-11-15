@@ -47,7 +47,7 @@ SHELL = /bin/sh
 # The CMake executable.
 CMAKE_COMMAND = /usr/bin/cmake
 
-# The command to remove a file.
+# The command to remove visitBit file.
 RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.

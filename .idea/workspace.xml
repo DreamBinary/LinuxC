@@ -10,36 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_download/server_file1" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client_download/server_file1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_gui" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client_gui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client_gui.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/client_upload/client_file" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client_upload/client_file" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/msg.h" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/msg.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file0" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file1" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file2" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file3" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file4" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file5" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file6" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file7" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file8" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_download/server_file9" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_upload/client" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_upload/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_upload/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_upload/client.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_upload/client_file" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_upload/client_file" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_upload/download_file" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_upload/download_file" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_upload/here is filepath tip" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_upload/here is filepath tip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/server_upload/msg.h" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_upload/msg.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/share.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/share.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/share.h" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/share.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/tcp_client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/tcp_client.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/tcp_server.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/tcp_server.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FP/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FP/tmp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/Linux/client_upload/client_file" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client_upload/client_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/Linux/server_download/server_file0" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/warn-hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/hello/warn-hello.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/xref-hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/hello/xref-hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.spec" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,27 +55,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu/root/LinuxC/Work/pc",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CPPToolchains",
-    "two.files.diff.last.used.file": "//wsl$/Ubuntu/root/LinuxC/Work/zeroo.c",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/root/LinuxC/Work/pc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;//wsl$/Ubuntu/root/LinuxC/Work/zeroo.c&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu\root\LinuxC\Work\pc" />
@@ -103,9 +86,9 @@
       <recent name="\\wsl$\Ubuntu\root\LinuxC\Work\Linux" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.fork.c (1)">
-    <configuration name="02.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="02.c" CONFIG_NAME="02.c">
-      <option name="sourceFile" value="Work\pc\02.c" />
+  <component name="RunManager" selected="C/C++ File.clock.c (1)">
+    <configuration name="01.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="01.c" CONFIG_NAME="01.c">
+      <option name="sourceFile" value="Work\OS\partion\01.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -116,8 +99,14 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="client.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="client.c" CONFIG_NAME="client.c">
-      <option name="sourceFile" value="Work\client.c" />
+    <configuration name="clock.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="clock.c">
+      <option name="sourceFile" value="Work\OS\clock\clock.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clock.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="clock.c" CONFIG_NAME="clock.c">
+      <option name="sourceFile" value="Work\OS\clock\clock.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -128,26 +117,20 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fork.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="fork.c" CONFIG_NAME="fork.c">
-      <option name="sourceFile" value="Work\fork.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="C/C++ File.02.c" />
+      <item itemvalue="C/C++ File.01.c" />
+      <item itemvalue="C/C++ File.clock.c" />
+      <item itemvalue="C/C++ File.clock.c (1)" />
       <item itemvalue="C/C++ File.03.c" />
-      <item itemvalue="C/C++ File.fork.c" />
       <item itemvalue="C/C++ File.fork.c (1)" />
-      <item itemvalue="C/C++ File.client.c" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.clock.c (1)" />
+        <item itemvalue="C/C++ File.clock.c" />
+        <item itemvalue="C/C++ File.01.c" />
         <item itemvalue="C/C++ File.fork.c (1)" />
         <item itemvalue="C/C++ File.03.c" />
-        <item itemvalue="C/C++ File.02.c" />
-        <item itemvalue="C/C++ File.fork.c" />
-        <item itemvalue="C/C++ File.client.c" />
       </list>
     </recent_temporary>
   </component>
@@ -199,21 +182,16 @@
       <workItem from="1697243139105" duration="294000" />
       <workItem from="1697259365104" duration="15000" />
       <workItem from="1698800434498" duration="3360000" />
+      <workItem from="1699595557093" duration="10517000" />
+      <workItem from="1700010102742" duration="1388000" />
+      <workItem from="1700011602834" duration="5723000" />
+      <workItem from="1700018158919" duration="3198000" />
+      <workItem from="1700028950158" duration="37000" />
+      <workItem from="1700029904551" duration="98000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Work/pc/02.c</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
