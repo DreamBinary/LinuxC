@@ -10,19 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FP/tmp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FP/tmp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/Linux/client_upload/client_file" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/client_upload/client_file" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/Linux/server_download/server_file0" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_download/server_file0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/hello/warn-hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/hello/warn-hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/hello/xref-hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/hello/xref-hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.spec" beforeDir="false" afterPath="$PROJECT_DIR$/hello.spec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +176,7 @@
       <workItem from="1700018158919" duration="3198000" />
       <workItem from="1700028950158" duration="37000" />
       <workItem from="1700029904551" duration="98000" />
+      <workItem from="1700125754295" duration="631000" />
     </task>
     <servers />
   </component>
