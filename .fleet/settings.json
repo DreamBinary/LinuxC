@@ -1,0 +1,8 @@
+{
+    "plugins": [
+        {
+            "type": "remove",
+            "pluginName": "fleet.go"
+        }
+    ]
+}

@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/OS/clock/clock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Work/OS/clock/clock.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +55,13 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Tmp",
+    "last_opened_file_path": "//wsl$/Ubuntu/root/LinuxC",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "CPPToolchains",
     "two.files.diff.last.used.file": "//wsl$/Ubuntu/root/LinuxC/Work/zeroo.c",
     "vue.rearranger.settings.migration": "true"
   }
@@ -178,6 +180,8 @@
       <workItem from="1700029904551" duration="98000" />
       <workItem from="1700125754295" duration="701000" />
       <workItem from="1700131281933" duration="203000" />
+      <workItem from="1700454184083" duration="653000" />
+      <workItem from="1700615252295" duration="143000" />
     </task>
     <servers />
   </component>
