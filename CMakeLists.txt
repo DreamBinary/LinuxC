@@ -3,4 +3,4 @@ project(LinuxCC C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(LinuxCC main.c)
+add_executable(LinuxCC main.c main.cpp)
