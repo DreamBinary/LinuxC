@@ -13,8 +13,8 @@
 #include <fcntl.h>
 #include "share.h"
 
-char server_path[50] = "/root/LinuxC/Work/server_download/";
-char server_upload_path[50] = "/root/LinuxC/Work/server_upload/";
+char server_path[50] = "/root/LinuxC/Work/Linux/server_download/";
+char server_upload_path[50] = "/root/LinuxC/Work/Linux/server_upload/";
 
 void send_server_filename(int c_fd) {
     struct dirent *dir = NULL;
