@@ -10,12 +10,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baff69a4-0e03-40bd-8c7f-c4ed873cb3b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.fleet/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/OS/clock/tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/OS/pc/03.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/OS/pc/process_communication.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/OS/pc/04.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Work/OS/pc/05.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FP/opdir.c" beforeDir="false" afterPath="$PROJECT_DIR$/FP/opdir.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FP/rename.c" beforeDir="false" afterPath="$PROJECT_DIR$/FP/rename.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FP/stat.c" beforeDir="false" afterPath="$PROJECT_DIR$/FP/stat.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/read_write.c" beforeDir="false" afterPath="$PROJECT_DIR$/IO/read_write.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO/read_write2.c" beforeDir="false" afterPath="$PROJECT_DIR$/IO/read_write2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPC/mkfifo.c" beforeDir="false" afterPath="$PROJECT_DIR$/IPC/mkfifo.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPC/msgqueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/IPC/msgqueue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPC/pipe.c" beforeDir="false" afterPath="$PROJECT_DIR$/IPC/pipe.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPC/sem0.c" beforeDir="false" afterPath="$PROJECT_DIR$/IPC/sem0.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPC/sem1.c" beforeDir="false" afterPath="$PROJECT_DIR$/IPC/sem1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPC/shm.c" beforeDir="false" afterPath="$PROJECT_DIR$/IPC/shm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NET/tcp_client" beforeDir="false" afterPath="$PROJECT_DIR$/NET/tcp_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NET/tcp_client.c" beforeDir="false" afterPath="$PROJECT_DIR$/NET/tcp_client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NET/tcp_server.c" beforeDir="false" afterPath="$PROJECT_DIR$/NET/tcp_server.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NET/udp_client.c" beforeDir="false" afterPath="$PROJECT_DIR$/NET/udp_client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NET/udp_server.c" beforeDir="false" afterPath="$PROJECT_DIR$/NET/udp_server.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NET/url.c" beforeDir="false" afterPath="$PROJECT_DIR$/NET/url.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/execve.c" beforeDir="false" afterPath="$PROJECT_DIR$/PC/execve.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/execve2.c" beforeDir="false" afterPath="$PROJECT_DIR$/PC/execve2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/fork.c" beforeDir="false" afterPath="$PROJECT_DIR$/PC/fork.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/PC/hello.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/thread.c" beforeDir="false" afterPath="$PROJECT_DIR$/PC/thread.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/vfork.c" beforeDir="false" afterPath="$PROJECT_DIR$/PC/vfork.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PC/wait.c" beforeDir="false" afterPath="$PROJECT_DIR$/PC/wait.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THREAD/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/THREAD/process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/Linux/server_upload/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/server_upload/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/Linux/share.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/share.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/Linux/tcp_client.c" beforeDir="false" afterPath="$PROJECT_DIR$/Work/Linux/tcp_client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/OS/clock/clock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Work/OS/clock/clock.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Work/OS/partion/tmp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Work/OS/partion/tmp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hello/xref-hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/hello/xref-hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6981d3f6277b3af8c969.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6981d3f6277b3af8c969.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7ef5ce73f24c03ed7334.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-7ef5ce73f24c03ed7334.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2dc3c1e0615262a041f3.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2dc3c1e0615262a041f3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-11T13-46-43-0986.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-11T13-46-43-0986.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-LinuxCC-Debug-aa6b9927daa6616602a7.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-LinuxCC-Debug-aa6b9927daa6616602a7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ab6bc179ddbddbdb0d31.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ab6bc179ddbddbdb0d31.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/compiler_depend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LinuxCC.dir/compiler_depend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.c" beforeDir="false" afterPath="$PROJECT_DIR$/hello.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,51 +123,51 @@
       <recent name="\\wsl$\Ubuntu\root\LinuxC\Work\Linux" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.banker.cpp">
-    <configuration name="01.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="01.c" CONFIG_NAME="01.c">
-      <option name="sourceFile" value="Work\OS\partion\01.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="C/C++ File.tcp_client.c">
     <configuration name="banker.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="banker.cpp" CONFIG_NAME="banker.cpp">
       <option name="sourceFile" value="Work\OS\banker.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clock.c (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="clock.c">
-      <option name="sourceFile" value="Work\OS\clock\clock.cpp" />
+    <configuration name="tcp_client.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="tcp_client.c" CONFIG_NAME="tcp_client.c">
+      <option name="sourceFile" value="NET\tcp_client.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clock.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="clock.c" CONFIG_NAME="clock.c">
-      <option name="sourceFile" value="Work\OS\clock\clock.c" />
+    <configuration name="tcp_server.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="tcp_server.c" CONFIG_NAME="tcp_server.c">
+      <option name="sourceFile" value="NET\tcp_server.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
-      <option name="sourceFile" value="main.cpp" />
+    <configuration name="udp_client.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="udp_client.c" CONFIG_NAME="udp_client.c">
+      <option name="sourceFile" value="NET\udp_client.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="udp_server.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinuxC" TARGET_NAME="udp_server.c" CONFIG_NAME="udp_server.c">
+      <option name="sourceFile" value="NET\udp_server.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.tcp_client.c" />
+      <item itemvalue="C/C++ File.tcp_server.c" />
+      <item itemvalue="C/C++ File.udp_client.c" />
+      <item itemvalue="C/C++ File.udp_server.c" />
       <item itemvalue="C/C++ File.banker.cpp" />
-      <item itemvalue="C/C++ File.main.cpp" />
-      <item itemvalue="C/C++ File.01.c" />
-      <item itemvalue="C/C++ File.clock.c" />
-      <item itemvalue="C/C++ File.clock.c (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.tcp_client.c" />
+        <item itemvalue="C/C++ File.tcp_server.c" />
+        <item itemvalue="C/C++ File.udp_client.c" />
+        <item itemvalue="C/C++ File.udp_server.c" />
         <item itemvalue="C/C++ File.banker.cpp" />
-        <item itemvalue="C/C++ File.main.cpp" />
-        <item itemvalue="C/C++ File.clock.c (1)" />
-        <item itemvalue="C/C++ File.clock.c" />
-        <item itemvalue="C/C++ File.01.c" />
       </list>
     </recent_temporary>
   </component>
@@ -190,10 +234,22 @@
       <workItem from="1701074235275" duration="796000" />
       <workItem from="1701076398360" duration="811000" />
       <workItem from="1701221814643" duration="1395000" />
+      <workItem from="1702540979761" duration="1713000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/NET/tcp_client.c</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

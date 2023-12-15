@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[]) {
     if (argc < 3) {
         printf("usages: %s oldpath newpath\n", argv[0]);
     }

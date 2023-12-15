@@ -12,12 +12,12 @@ int main() {
     int proj_id;
     key_t key;
     int size;
-    char* addr;
+    char *addr;
     pid_t pid;
     key = IPC_PRIVATE;
     shmid =
-        shmget(key, 1024,
-               IPC_CREAT | 0666);  // IPC_CREAT | 0666 --> valid simutaniously
+            shmget(key, 1024,
+                   IPC_CREAT | 0666);  // IPC_CREAT | 0666 --> valid simutaniously
 
     if (shmid == -1) {
         perror("shmget error");
@@ -25,8 +25,8 @@ int main() {
     } else {
         printf("shmget success\n");
     }
-    addr = (char*)shmat(shmid, NULL, 0);
-    if (addr == (char*)-1) {
+    addr = (char *) shmat(shmid, NULL, 0);
+    if (addr == (char *) -1) {
         perror("shmat error");
         exit(1);
     } else {

@@ -5,7 +5,7 @@
 #include "unistd.h"
 
 int main() {
-    char* path = "tmp.txt";
+    char *path = "tmp.txt";
     int fd;
     char buf[40], buf2[] = "Hello, world!";
     int n, i;

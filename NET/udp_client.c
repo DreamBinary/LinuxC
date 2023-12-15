@@ -19,7 +19,7 @@ int main() {
     len = sizeof(address);
     printf("Enter a message to send to the server: \n");
     fgets(buf, sizeof(buf), stdin);
-    sendto(sockfd, buf, sizeof(buf), 0, (struct sockaddr*)&address, len);
+    sendto(sockfd, buf, sizeof(buf), 0, (struct sockaddr *) &address, len);
     printf("send success\n");
     return 0;
 }

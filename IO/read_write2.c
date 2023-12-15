@@ -1,16 +1,16 @@
 #include "stdio.h"
 
 int main() {
-    char* path = "tmp.txt";
+    char *path = "tmp.txt";
 
-    FILE* fp = fopen(path, "r");
+    FILE *fp = fopen(path, "r");
     if (fp != NULL) {
         printf("open success\n");
     } else {
         printf("open error\n");
         return 1;
     }
-    FILE* fpw = fopen("tmp2.txt", "w");
+    FILE *fpw = fopen("tmp2.txt", "w");
     int r;
     if (fseek(fpw, 0L, SEEK_END) != 0) {
         printf("fseek error\n");

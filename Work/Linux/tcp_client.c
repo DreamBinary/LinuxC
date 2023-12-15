@@ -38,18 +38,19 @@ void *recv_thread(void *arg) {
                 if (res == -1) {
                     perror("mkdir() error");
                 }
-                }
-            }
-            int fd = open("Work/client_download/file", O_WRONLY | O_CREAT | O_TRUNC, 0777);
-            if (fd < 0) {
-                perror("open file error");
-            } else {
-                write(fd, recv_msg.buffer, sizeof(recv_msg.buffer));
-                memset(recv_msg.buffer, 0, sizeof(recv_msg.buffer));
-                close(fd);
             }
         }
+        int fd = open("Work/client_download/file", O_WRONLY | O_CREAT | O_TRUNC, 0777);
+        if (fd < 0) {
+            perror("open file error");
+        } else {
+            write(fd, recv_msg.buffer, sizeof(recv_msg.buffer));
+            memset(recv_msg.buffer, 0, sizeof(recv_msg.buffer));
+            close(fd);
+        }
     }
+}
+
 }
 
 char upload_filename[50];

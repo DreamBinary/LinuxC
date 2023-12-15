@@ -2,7 +2,7 @@
 #include "unistd.h"
 #include "stdio.h"
 
-int main(){
+int main() {
     struct stat buf;
     stat("tmp.txt", &buf);
     printf("tmp.txt file size = %ld \n", buf.st_size);

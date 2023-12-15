@@ -4,7 +4,7 @@
 #include "sys/types.h"
 #include "unistd.h"
 
-void* fun(void*);
+void *fun(void *);
 
 int main() {
     pthread_t id;
@@ -25,10 +25,10 @@ int main() {
     exit(0);
 }
 
-void* fun(void* arg) {
+void *fun(void *arg) {
     printf("fun start\n");
     if (arg != NULL) {
-        printf("arg -> %d\n", *(int*)arg);
+        printf("arg -> %d\n", *(int *) arg);
         // printf("arg -> %d\n", *(char*)arg);
     }
 

@@ -1,2 +1,13 @@
-# CMAKE generated file: DO NOT EDIT!
-# Timestamp file for compiler generated dependencies management for LinuxCC.
+#
+CMAKE
+generated
+DO
+NOT
+EDIT!
+#
+Timestamp
+file
+for compiler generated
+dependencies
+management
+for LinuxCC.

@@ -1,8 +1,9 @@
 #include "netdb.h"
 #include "stdio.h"
+
 int main() {
-    char* path = "www.baidu.com";
-    struct hostent* host = gethostbyname(path);
+    char *path = "www.baidu.com";
+    struct hostent *host = gethostbyname(path);
     if (host == NULL) {
         printf("gethostbyname error\n");
         return 1;

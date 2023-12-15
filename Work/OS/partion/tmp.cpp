@@ -20,7 +20,8 @@ int firstFit(struct Storage *head, int id, int size) {
     p->end = p->start + size - 1;
     p->status = 1;
 
-    struct Storage *new = (struct Storage *) malloc(sizeof(struct Storage));
+    struct Storage *
+    new = (struct Storage *) malloc(sizeof(struct Storage));
     new->id = -1;
     new->size = sizeOld - size;
     new->start = p->end + 1;

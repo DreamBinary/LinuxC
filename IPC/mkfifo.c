@@ -4,6 +4,7 @@
 #include "sys/stat.h"
 #include "sys/types.h"
 #include "unistd.h"
+
 #define FIFO "/tmp/myfifo"
 
 int main() {
